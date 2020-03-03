@@ -1,0 +1,15 @@
+{
+  "name": "hacker news clone with next",
+  "short_name": "hacker-news-clone",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#ff6600",
+  "icons": [
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
