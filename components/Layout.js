@@ -40,7 +40,8 @@ const Layout = ({ children, title }) => (
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 85%;
+        width: 100%;
+        max-width: 1080px;
         margin: auto;
       }
 

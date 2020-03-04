@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta charset='UTF-8' />
+          <meta charSet='UTF-8' />
           <meta
             name='viewport'
             content='width=device-width, initial-scale=1, shrink-to-fit=no'
@@ -41,11 +41,11 @@ class MyDocument extends Document {
           />
           <meta name='theme-color' content='#00a8cc' />
           <meta
-            itemprop='name'
+            itemProp='name'
             content='Hacker News Clone using API From node-hnapi'
           />
           <meta
-            itemprop='description'
+            itemProp='description'
             content='Hei, collaborate with me, just send me a request to ...@@'
           ></meta>
         </Head>
