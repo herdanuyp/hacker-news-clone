@@ -10,24 +10,17 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link rel='manifest' href='manifest.json' />
-
-          <meta name='mobile-web-app-capable' content='yes' />
-          <meta name='apple-mobile-web-app-capable' content='yes' />
-          <meta name='application-name' content='hacker-news-clone' />
-          <meta name='apple-mobile-web-app-title' content='hacker-news-clone' />
-          <meta name='theme-color' content='#ff6600' />
-          <meta name='msapplication-navbutton-color' content='#ff6600' />
-          <meta
-            name='apple-mobile-web-app-status-bar-style'
-            content='black-translucent'
-          />
-          <meta name='msapplication-starturl' content='/' />
+          <meta charset='UTF-8' />
           <meta
             name='viewport'
             content='width=device-width, initial-scale=1, shrink-to-fit=no'
           />
+          <meta
+            name='description'
+            content='Hacker News Clone using Nextjs and API from node-hnapi'
+          />
 
+          <link rel='manifest' href='/manifest.json' />
           <link
             rel='icon'
             type='image/png'
@@ -40,6 +33,21 @@ class MyDocument extends Document {
             sizes='512x512'
             href='/icons/icon-512x512.png'
           />
+          <link rel='canonical' href='http://example.com/' />
+          <meta name='mobile-web-app-capable' content='yes' />
+          <meta
+            name='apple-mobile-web-app-title'
+            content='Hacker News Clone By HaYePe'
+          />
+          <meta name='theme-color' content='#00a8cc' />
+          <meta
+            itemprop='name'
+            content='Hacker News Clone using API From node-hnapi'
+          />
+          <meta
+            itemprop='description'
+            content='Hei, collaborate with me, just send me a request to ...@@'
+          ></meta>
         </Head>
         <body>
           <Main />
