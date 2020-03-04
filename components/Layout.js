@@ -48,12 +48,13 @@ const Layout = ({ children, title }) => (
         position: relative;
         height: 3em;
         width: 100%;
+        z-index: 2;
       }
 
       button {
         outline: 0;
         border: none;
-        background-color: transparent;
+        background-color: white;
         box-shadow: 0px 4px 17px -2px rgba(0, 0, 0, 0.75);
         border-radius: 5px;
         width: 5em;
@@ -61,6 +62,7 @@ const Layout = ({ children, title }) => (
         padding: 5px;
         position: fixed;
         top: 10px;
+        cursor: pointer;
       }
 
       .header {

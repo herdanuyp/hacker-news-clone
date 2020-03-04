@@ -47,7 +47,7 @@ const Index = ({ errorCode, news, page }) => {
 Index.getInitialProps = async ({ req, res, query }) => {
   let page = Number(query.page) || 1;
   const response = await fetch(
-    `http://node-hnapi.herokuapp.com/news?page=${page}`
+    `https://api.hackerwebapp.com/news?page=${page}`
   );
   const errorCode = response.status > 200 ? response.status : false;
   const data = await response.json();
